@@ -2,77 +2,72 @@
 
 //Task1 
 
-const personA = {
-    name: "Mariam",
-    age: 20,
-    location: "London",
-    likes: 'Orange'
-};
-const personB = {
-    name: "Tonia",
-    age: 24,
-    location: "France",
-    likes: 'Tea'
-};
-const personC = {
-    name: "Carina",
-    age: 12,
-    location: "Wolverhampton",
-    likes: 'Milk'
-};
-const personD = {
-    name: "Carolina",
-    age: 10,
-    location: "Canoc",
-    likes: 'Chocolate'
-}
+// const personA = {
+//     name: "Mariam",
+//     age: 20,
+//     location: "London",
+//     likes: 'Orange'
+// };
+// const personB = {
+//     name: "Tonia",
+//     age: 24,
+//     location: "France",
+//     likes: 'Tea'
+// };
+// const personC = {
+//     name: "Carina",
+//     age: 12,
+//     location: "Wolverhampton",
+//     likes: 'Milk'
+// };
+// const personD = {
+//     name: "Carolina",
+//     age: 10,
+//     location: "Canoc",
+//     likes: 'Chocolate'
+// }
 
-function biography(person) {
-return `Hi, my name is ${person.name}, 
-I am ${person.age} years old,
- I live in ${person.location} and 
-I like ${person.likes}`
-}
+// function biography(person) {
+// return `Hi, my name is ${person.name}, 
+// I am ${person.age} years old,
+//  I live in ${person.location} and 
+// I like ${person.likes}`
+// }
 
-console.log(biography(personC));
+// console.log(biography(personC));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Task2 
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-// const x = 6;
-// const y = 4;
+const x = 6;
+const y = 4;
 
-// const addition = x + y;
+//Try some other maths problems
+const notEqual = x !== y;
 
-// console.log("Addition: x + y " + addition);
+console.log("x is not equal to y:" + notEqual);
 
-// const subtraction = x - y;
+const modulus = x % y;
 
-// console.log("Subtraction: x - y " + subtraction);
+console.log("x modulus y is:  " + modulus);
 
-// const multiplication = x * y;
+//examples
+const addition = x + y;
 
-// console.log("multiplication: x * y " + multiplication);
+console.log("Addition: x + y " + addition);
 
-// const division = x * y;
+const subtraction = x - y;
 
-// console.log("Division: x + y " + division);
+console.log("Subtraction: x - y " + subtraction);
+
+const multiplication = x * y;
+
+console.log("multiplication: x * y " + multiplication);
+
+const division = x * y;
+
+console.log("Division: x + y " + division);
 
 
 
