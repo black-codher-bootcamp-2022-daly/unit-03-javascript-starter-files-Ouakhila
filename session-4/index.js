@@ -1,4 +1,26 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
+// HomeWork Task2
+ function whoIsOlder(personA, personB) {
+
+ }
+
+
+// HomeWork Task1 
+function addNumber(x,y) {
+    return x + y; 
+}
+function substract(x,y) {
+    return x-y;
+}
+ const calculator = {
+    add: addNumber,
+    substract:substract,
+    multiply: function multiplication(x,y) {
+        return x * y;
+    },
+    divide: (x,y) => x/y,
+ }
+ console.log(calculator.add(x,y));
 
 //Task1 
 
@@ -40,34 +62,34 @@
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-const x = 6;
-const y = 4;
+// const x = 6;
+// const y = 4;
 
-//Try some other maths problems
-const notEqual = x !== y;
+// //Try some other maths problems
+// const notEqual = x !== y;
 
-console.log("x is not equal to y:" + notEqual);
+// console.log("x is not equal to y:" + notEqual);
 
-const modulus = x % y;
+// const modulus = x % y;
 
-console.log("x modulus y is:  " + modulus);
+// console.log("x modulus y is:  " + modulus);
 
-//examples
-const addition = x + y;
+// //examples
+// const addition = x + y;
 
-console.log("Addition: x + y " + addition);
+// console.log("Addition: x + y " + addition);
 
-const subtraction = x - y;
+// const subtraction = x - y;
 
-console.log("Subtraction: x - y " + subtraction);
+// console.log("Subtraction: x - y " + subtraction);
 
-const multiplication = x * y;
+// const multiplication = x * y;
 
-console.log("multiplication: x * y " + multiplication);
+// console.log("multiplication: x * y " + multiplication);
 
-const division = x * y;
+// const division = x * y;
 
-console.log("Division: x + y " + division);
+// console.log("Division: x + y " + division);
 
 
 
